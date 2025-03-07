@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Chess Openings
-permalink: /chess-openings/
 ---
 
 # Otwarcia szachowe
