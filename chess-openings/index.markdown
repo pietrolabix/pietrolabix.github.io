@@ -1,10 +1,10 @@
 
-```
+
 ---
 layout: page
 title: Chess Openings
 ---
-```# Otwarcia szachowe
+# Otwarcia szachowe
 
 ## Lista popularnych otwarć:
 - [1. e4](/1-e4-chess-openings/)
