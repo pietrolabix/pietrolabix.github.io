@@ -1,9 +1,8 @@
-
-
 ---
 layout: page
 title: Chess Openings
 ---
+
 # Otwarcia szachowe
 
 ## Lista popularnych otwarć:
