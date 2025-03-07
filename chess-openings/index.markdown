@@ -1,4 +1,10 @@
-# Otwarcia szachowe
+
+```
+---
+layout: page
+title: Chess Openings
+---
+```# Otwarcia szachowe
 
 ## Lista popularnych otwarć:
 - [1. e4](/1-e4-chess-openings/)
@@ -413,10 +419,3 @@
 ![Wing Gambit](https://www.thechesswebsite.com/wp-content/uploads/2019/02/wing-gambit.png)
 
   - Dodatkowe informacje: ^abBeating the Anti-Sicilians, Joe Gallagher, 1994,ISBN9780805035759^GothamChess (2021-03-20).CRUSH French and Sicilian Defense with The Wing Gambit. Retrieved2024-12-12– via YouTube.
-
-```
----
-layout: page
-title: Chess Openings
----
-```
