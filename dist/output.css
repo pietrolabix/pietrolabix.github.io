@@ -137,6 +137,9 @@
 .container\! {
   width: 100% !important;
 }
+.mx-auto {
+  margin-inline: auto;
+}
 .box-border {
   box-sizing: border-box;
 }
@@ -241,6 +244,9 @@
 }
 .w-1\/2 {
   width: calc(1/2 * 100%);
+}
+.w-full {
+  width: 100%;
 }
 .w-screen {
   width: 100vw;
@@ -721,6 +727,9 @@
 }
 .scroll-smooth {
   scroll-behavior: smooth;
+}
+.rounded-full {
+  border-radius: calc(infinity * 1px);
 }
 .border {
   border-style: var(--tw-border-style);
