@@ -1,24 +1,6 @@
 {
-  "name": "pietrolabix.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build:css": "tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pietrolabix/pietrolabix.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pietrolabix/pietrolabix.github.io/issues"
-  },
-  "homepage": "https://github.com/pietrolabix/pietrolabix.github.io#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
     "tailwindcss": "^4.0.17"
   }
 }
-
