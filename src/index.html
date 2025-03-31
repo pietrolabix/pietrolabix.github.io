@@ -1,84 +1,46 @@
 <!doctype html>
-<html lang="pl">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <title>TailwindCSS Example</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-sky-50 text-gray-900">
-
-  <h1 class="text-4xl font-bold underline text-sky-500">
-    Hello, world!
-  </h1>
-  
-  <p class="text-lg text-green-500">
-    Ten tekst ma kolor zielony.
-  </p>
-
-  <p class="text-lg text-red-500">
-    Ten tekst ma kolor czerwony.
-  </p>
-
-  <p class="text-lg text-indigo-500">
-    A to tekst w kolorze indygo.
-  </p>
-
-  <a href="#" class="text-blue-500 hover:text-blue-700 underline">
-    To jest link w kolorze niebieskim.
-  </a>
-
-  <div class="mt-8 p-6 bg-sky-500 text-white rounded-lg shadow-lg">
-    <p class="text-xl">
-      To jest div z tłem w kolorze niebieskim (sky-500) oraz cieniem.
-    </p>
+<body>
+  <div class="bg-blue-500 text-white p-5 shadow-lg">
+    <h1 class="text-3xl font-bold underline animate-ping">
+      Hello world!
+    </h1>
   </div>
-
-  <div class="mt-8 p-6 bg-red-500 text-white rounded-lg shadow-2xl">
-    <p class="text-xl">
-      To jest div z tłem w kolorze czerwonym (red-500) oraz bardziej wyrazistym cieniem.
-    </p>
+  <div class="p-5">
+    <p class="text-sky-500">This is a sky-blue text.</p>
+    <p class="text-green-500">This is a green text.</p>
+    <p class="text-red-500">This is a red text.</p>
+    <a href="#" class="text-purple-500 underline">This is a purple link.</a>
   </div>
-
-  <div class="mt-8 p-6 bg-green-500 text-white rounded-lg shadow-md">
-    <p class="text-xl">
-      To jest div z tłem w kolorze zielonym (green-500) oraz cieniem średniej mocy.
-    </p>
+  <div class="bg-yellow-500 text-black p-5 shadow-md">
+    <p>This block has a yellow background and a medium shadow.</p>
   </div>
-
-  <table class="table-auto mt-8 w-full border-collapse">
+  <div class="bg-red-500 text-white p-5 shadow-xl">
+    <p>This block has a red background and an extra-large shadow.</p>
+  </div>
+  <table class="table-auto border-collapse border border-gray-500 mt-5">
     <thead>
-      <tr class="bg-gray-200">
-        <th class="border px-4 py-2">Nazwa</th>
-        <th class="border px-4 py-2">Wiek</th>
-        <th class="border px-4 py-2">Miasto</th>
+      <tr>
+        <th class="border border-gray-500 px-4 py-2">Header 1</th>
+        <th class="border border-gray-500 px-4 py-2">Header 2</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="hover:bg-gray-100">
-        <td class="border px-4 py-2">Jan</td>
-        <td class="border px-4 py-2">25</td>
-        <td class="border px-4 py-2">Warszawa</td>
+      <tr>
+        <td class="border border-gray-500 px-4 py-2">Cell 1</td>
+        <td class="border border-gray-500 px-4 py-2">Cell 2</td>
       </tr>
-      <tr class="hover:bg-gray-100">
-        <td class="border px-4 py-2">Anna</td>
-        <td class="border px-4 py-2">30</td>
-        <td class="border px-4 py-2">Kraków</td>
-      </tr>
-      <tr class="hover:bg-gray-100">
-        <td class="border px-4 py-2">Marek</td>
-        <td class="border px-4 py-2">22</td>
-        <td class="border px-4 py-2">Poznań</td>
+      <tr>
+        <td class="border border-gray-500 px-4 py-2">Cell 3</td>
+        <td class="border border-gray-500 px-4 py-2">Cell 4</td>
       </tr>
     </tbody>
   </table>
-
-  <div class="mt-8 p-6 bg-yellow-500 text-white rounded-full animate-ping">
-    <p class="text-xl">
-      Ten element ma efekt animacji ping.
-    </p>
-  </div>
-
 </body>
 </html>
 
