@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Otwarcia Szachowe</title>
-    <link href="./dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
     <div class="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
-        <h1 class="text-4xl font-bold text-sky-600">Otwarcia Szachowe</h1>
+        <h1 class="text-4xl font-bold text-sky-600 animate-pulse">Otwarcia Szachowe</h1>
         <p class="text-gray-700 mt-4">Ta strona jest o otwarciach szachowych. Jeżeli chcesz zobaczyć ich listę, przejdź tutaj:</p>
-        <a href="chess-openings/" class="mt-4 inline-block bg-sky-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-sky-700 transition">Lista otwarć szachowych</a>
+        <a href="chess-openings/" class="mt-4 inline-block bg-green-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-green-700 transition">Lista otwarć szachowych</a>
     </div>
+    <div class="bg-blue-500 text-white p-4 mt-10 rounded-lg shadow-md max-w-md">
+        <p class="text-center">Dodatkowy blok informacyjny o szachach z niebieskim tłem.</p>
+    </div>
+    <div class="bg-yellow-300 text-black p-4 mt-5 rounded-lg shadow-md max-w-md">
+        <p class="text-center">Inny blok z jasnym żółtym tłem, dla większej różnorodności wizualnej.</p>
+    </div>
+    <table class="table-auto border-collapse border border-gray-500 mt-10 mx-auto">
+        <thead>
+            <tr>
+                <th class="border border-gray-500 px-4 py-2">Otwarcie</th>
+                <th class="border border-gray-500 px-4 py-2">Opis</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border border-gray-500 px-4 py-2">Ruy Lopez</td>
+                <td class="border border-gray-500 px-4 py-2">Popularne otwarcie używane w profesjonalnych grach.</td>
+            </tr>
+            <tr>
+                <td class="border border-gray-500 px-4 py-2">Sycylijskie</td>
+                <td class="border border-gray-500 px-4 py-2">Agresywna odpowiedź na e4.</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
 
