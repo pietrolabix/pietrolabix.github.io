@@ -1,13 +1,48 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otwarcia Szachowe</title>
+    <link href="./dist/output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
+        <h1 class="text-4xl font-bold text-sky-600">Otwarcia Szachowe</h1>
+        <p class="text-gray-700 mt-4">Ta strona jest o otwarciach szachowych. Jeżeli chcesz zobaczyć ich listę, przejdź tutaj:</p>
+        <a href="chess-openings/" class="mt-4 inline-block bg-sky-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-sky-700 transition">Lista otwarć szachowych</a>
+        
+        <!-- Demonstracja różnych kolorów tła -->
+        <div class="mt-6 p-4 bg-green-200 rounded-lg">Tło zielone</div>
+        <div class="mt-4 p-4 bg-yellow-200 rounded-lg">Tło żółte</div>
+        <div class="mt-4 p-4 bg-red-200 rounded-lg">Tło czerwone</div>
+        
+        <!-- Demonstracja efektu cienia -->
+        <div class="mt-6 p-4 bg-gray-50 rounded-lg shadow-xl">To jest tekst w pudełku z dużym cieniem</div>
+        
+        <!-- Demonstracja tabeli -->
+        <table class="table-auto border-collapse border border-gray-400 mt-6 w-full">
+            <thead>
+                <tr>
+                    <th class="border border-gray-300 px-4 py-2">Otwarcie</th>
+                    <th class="border border-gray-300 px-4 py-2">Popularność</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2">Gambit Królewski</td>
+                    <td class="border border-gray-300 px-4 py-2">Wysoka</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2">Obrona Sycylijska</td>
+                    <td class="border border-gray-300 px-4 py-2">Bardzo Wysoka</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- Demonstracja animacji -->
+        <div class="h-4 w-4 bg-red-500 rounded-full animate-ping mt-6"></div>
+    </div>
 </body>
 </html>
+
