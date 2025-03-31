@@ -1,48 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otwarcia Szachowe</title>
-    <link href="./dist/output.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>TailwindCSS Example</title>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
-        <h1 class="text-4xl font-bold text-sky-600">Otwarcia Szachowe</h1>
-        <p class="text-gray-700 mt-4">Ta strona jest o otwarciach szachowych. Jeżeli chcesz zobaczyć ich listę, przejdź tutaj:</p>
-        <a href="chess-openings/" class="mt-4 inline-block bg-sky-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-sky-700 transition">Lista otwarć szachowych</a>
-        
-        <!-- Demonstracja różnych kolorów tła -->
-        <div class="mt-6 p-4 bg-green-200 rounded-lg">Tło zielone</div>
-        <div class="mt-4 p-4 bg-yellow-200 rounded-lg">Tło żółte</div>
-        <div class="mt-4 p-4 bg-red-200 rounded-lg">Tło czerwone</div>
-        
-        <!-- Demonstracja efektu cienia -->
-        <div class="mt-6 p-4 bg-gray-50 rounded-lg shadow-xl">To jest tekst w pudełku z dużym cieniem</div>
-        
-        <!-- Demonstracja tabeli -->
-        <table class="table-auto border-collapse border border-gray-400 mt-6 w-full">
-            <thead>
-                <tr>
-                    <th class="border border-gray-300 px-4 py-2">Otwarcie</th>
-                    <th class="border border-gray-300 px-4 py-2">Popularność</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="border border-gray-300 px-4 py-2">Gambit Królewski</td>
-                    <td class="border border-gray-300 px-4 py-2">Wysoka</td>
-                </tr>
-                <tr>
-                    <td class="border border-gray-300 px-4 py-2">Obrona Sycylijska</td>
-                    <td class="border border-gray-300 px-4 py-2">Bardzo Wysoka</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <!-- Demonstracja animacji -->
-        <div class="h-4 w-4 bg-red-500 rounded-full animate-ping mt-6"></div>
-    </div>
+<body class="bg-sky-50 text-gray-900">
+
+  <h1 class="text-4xl font-bold underline text-sky-500">
+    Hello, world!
+  </h1>
+  
+  <p class="text-lg text-green-500">
+    Ten tekst ma kolor zielony.
+  </p>
+
+  <p class="text-lg text-red-500">
+    Ten tekst ma kolor czerwony.
+  </p>
+
+  <p class="text-lg text-indigo-500">
+    A to tekst w kolorze indygo.
+  </p>
+
+  <a href="#" class="text-blue-500 hover:text-blue-700 underline">
+    To jest link w kolorze niebieskim.
+  </a>
+
+  <div class="mt-8 p-6 bg-sky-500 text-white rounded-lg shadow-lg">
+    <p class="text-xl">
+      To jest div z tłem w kolorze niebieskim (sky-500) oraz cieniem.
+    </p>
+  </div>
+
+  <div class="mt-8 p-6 bg-red-500 text-white rounded-lg shadow-2xl">
+    <p class="text-xl">
+      To jest div z tłem w kolorze czerwonym (red-500) oraz bardziej wyrazistym cieniem.
+    </p>
+  </div>
+
+  <div class="mt-8 p-6 bg-green-500 text-white rounded-lg shadow-md">
+    <p class="text-xl">
+      To jest div z tłem w kolorze zielonym (green-500) oraz cieniem średniej mocy.
+    </p>
+  </div>
+
+  <table class="table-auto mt-8 w-full border-collapse">
+    <thead>
+      <tr class="bg-gray-200">
+        <th class="border px-4 py-2">Nazwa</th>
+        <th class="border px-4 py-2">Wiek</th>
+        <th class="border px-4 py-2">Miasto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="hover:bg-gray-100">
+        <td class="border px-4 py-2">Jan</td>
+        <td class="border px-4 py-2">25</td>
+        <td class="border px-4 py-2">Warszawa</td>
+      </tr>
+      <tr class="hover:bg-gray-100">
+        <td class="border px-4 py-2">Anna</td>
+        <td class="border px-4 py-2">30</td>
+        <td class="border px-4 py-2">Kraków</td>
+      </tr>
+      <tr class="hover:bg-gray-100">
+        <td class="border px-4 py-2">Marek</td>
+        <td class="border px-4 py-2">22</td>
+        <td class="border px-4 py-2">Poznań</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="mt-8 p-6 bg-yellow-500 text-white rounded-full animate-ping">
+    <p class="text-xl">
+      Ten element ma efekt animacji ping.
+    </p>
+  </div>
+
 </body>
 </html>
 
